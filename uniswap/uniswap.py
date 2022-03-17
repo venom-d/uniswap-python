@@ -64,7 +64,7 @@ class Uniswap:
         web3: Web3 = None,
         version: int = 1,
         default_slippage: float = 0.01,
-        use_estimate_gas: bool = True,
+        use_estimate_gas: bool = False,
         # use_eip1559: bool = True,
         factory_contract_addr: str = None,
         router_contract_addr: str = None,
